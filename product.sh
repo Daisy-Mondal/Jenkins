@@ -1,10 +1,10 @@
 #!/bin/bash
 
-c=1
+n=1
 
 for(( i=10; i<=30; i++))
 do
-c=$((c*i))
+n=$((n*i))
 done
 
-echo $c
+echo $n
