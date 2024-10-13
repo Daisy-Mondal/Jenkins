@@ -1,10 +1,10 @@
 #!/bin/bash
 
-d=1
+e=1
 
 for(( i=10; i<=30; i++))
 do
-d=$((d*i))
+e=$((e*i))
 done
 
-echo $d
+echo $e
